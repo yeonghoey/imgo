@@ -9,7 +9,7 @@ import pytesseract
 def cli(lang):
     img = ImageGrab.grabclipboard()
     if img is None:
-        raise click.UsageError('Clipboard does not contain image')
+        raise click.UsageError('Clipboard does not contain image data')
     else:
         s = pytesseract.image_to_string(img, lang=lang)
         pyperclip.copy(s)
