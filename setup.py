@@ -17,8 +17,8 @@ with open('imgo/__init__.py', 'rb') as f:
 setup(
     name='imgo',
     version=version,
-    description='Automation powered by OCR',
-    keywords='tesseract ocr cli',
+    description='Automation CLI for Image Processing',
+    keywords='tesseract ocr cli image automation',
     url='https://github.com/yeonghoey/imgo',
 
     author='Yeongho Kim',
