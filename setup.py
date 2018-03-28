@@ -34,6 +34,10 @@ setup(
     },
 
     install_requires=[
+        'pytesseract',
+        'pillow',
+        'click',
+        'pyperclip',
     ],
 
     classifiers=[
